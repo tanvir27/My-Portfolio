@@ -1,21 +1,21 @@
 import React from "react";
-import { BsBook, BsPersonSlash  } from "react-icons/bs"; 
-import { FaGraduationCap} from "react-icons/fa"; 
+import { BsBook, BsPersonSlash } from "react-icons/bs";
+import { FaGraduationCap } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Education = () => {
   return (
-    <section className="w-11/12 mx-auto">
+    <section className="w-11/12 mx-auto" id="about">
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-4">
           <div className="mr-3">
             <FaGraduationCap className="text-4xl" />
           </div>
-          <h2 className="text-5xl text-center text-green-900 font-bold">
+          <h2 className="text-5xl text-center text-green-900 font-bold mb-5">
             Education & Work Experience
           </h2>
         </div>
-        <h2 className="text-lg my-5">
+        <h2 className="text-lg my-6">
           <span className="pl-20">Expertise</span> in front-end technologies,
           including Html5, CSS3, JavaScript ,Typescript and libraries such as
           React Js, Bootstrap5, Tailwind, DaisyUI . Knowledge of server-side

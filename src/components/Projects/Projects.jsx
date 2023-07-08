@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
-import { FaBriefcase } from "react-icons/fa";
+import { FaBriefcase, FaArrowAltCircleRight, FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Projects = () => {
@@ -29,6 +30,15 @@ const Projects = () => {
         {projectData.map((project) => (
           <ProjectCard key={project.id} project={project}></ProjectCard>
         ))}
+      </div>
+      <div className="text-center  my-10">
+        <Link to="/projects">
+          {" "}
+          <button className=" text-black inline-block text-center bg-green-400 font-serif  focus:outline-none focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2 mr-2 mb-2 dark:focus:ring-green-900">
+            See All Projects
+            <FaArrowAltCircleRight className="inline-block ml-2 mb-1 text-4xl text-green-600" />{" "}
+          </button>
+        </Link>
       </div>
     </div>
   );

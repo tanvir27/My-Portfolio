@@ -32,13 +32,13 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className=" py-12 w">
+    <section className=" py-12 " id="skills">
       <div className="w-11/12 mx-auto">
-        <div className="flex items-center justify-center mb-4">
-          <div className="mr-3">
+        <div className="flex items-center justify-center mb-10">
+          <div className="mr-3 ">
             <SiKnowledgebase className="text-4xl" />
           </div>
-          <h2 className="text-5xl text-center text-green-900 font-bold">
+          <h2 className="text-5xl text-center text-green-900 font-bold ">
             My Skills
           </h2>
         </div>

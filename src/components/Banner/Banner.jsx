@@ -1,11 +1,12 @@
 import React from "react";
-import { FaCrown } from "react-icons/fa";
+import { FaCrown, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { BiLogoLinkedin } from "react-icons/bi";
 import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <section className="w-11/12 mx-auto">
-      <div className="text-center">
+    <section className="w-11/12 mx-auto " id="home">
+      <div className="text-center pt-4">
         <h1 className="text-black inline-block text-center bg-green-400 font-serif  focus:outline-none focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2 mr-2 mb-2 dark:focus:ring-green-900">
           <FaCrown className="inline-block mr-2 mb-1 text-4xl text-green-900" />{" "}
           MERN DEVELOPER
@@ -13,15 +14,12 @@ const Banner = () => {
       </div>
 
       <div className="flex items-center flex-col-reverse lg:flex-row mb-8 mx-8">
-        <div
-          className="w-full items-center lg:w-1/2 flex flex-col justify-center"
-        
-        >
+        <div className="w-full items-center lg:w-1/2 flex flex-col justify-center">
           <div className="title">
-            <h1 className=" text-4xl  md:mt-0 mt-4 leading-relaxed uppercase font-extrabold dark:text-white">
+            <h1 className=" text-4xl text-center md:mt-0 mt-4 leading-relaxed uppercase font-extrabold dark:text-white">
               Welcome to My Portfolio
             </h1>
-            <h1 className=" text-3xl md:pl-8 leading-relaxed  font-extrabold text-green-600  dark:text-white">
+            <h1 className=" text-2xl md:text-3xl text-center md:text-start md:pl-8 leading-relaxed  font-extrabold text-green-600  dark:text-white">
               Details More About Me.....
             </h1>
           </div>
@@ -34,7 +32,8 @@ const Banner = () => {
                 <Typewriter
                   words={[
                     "A passionate Frontend Developer from Bangladesh",
-                    "A MERN Stack Web Developer",
+                    "A React Developer",
+                    "A MERN Stack Developer",
                     "A Junior Web Developer",
                   ]}
                   loop={5}
@@ -61,8 +60,31 @@ const Banner = () => {
               </button>
             </a>
           </div>
+          <section className="flex justify-center py-10">
+            <div className="flex space-x-8">
+              <a
+                href="https://www.linkedin.com/in/tanvir-hasan27/"
+                className="text-green-500 text-4xl font-medium rounded-full transition-all transform hover:scale-125"
+              >
+                <BiLogoLinkedin className="w-16 h-16 rounded-full" />
+              </a>
+              <a
+                href="https://github.com/tanvir27"
+                className="text-green-500 text-4xl font-medium rounded-full transition-all transform hover:scale-125"
+              >
+                <FaGithub className="w-16 h-16 rounded-full " />
+              </a>
+
+              <a
+                href="https://www.instagram.com/tanwirhasan0/"
+                className="text-green-500 text-4xl font-medium rounded-full transition-all transform hover:scale-125"
+              >
+                <FaInstagram className="w-16 h-16 rounded-full" />
+              </a>
+            </div>
+          </section>
         </div>
-        <div className="w-full lg:w-1/2 " >
+        <div className="w-full lg:w-1/2 ">
           <img
             className="w-3/4 h-4/6 rounded-full"
             src="https://i.ibb.co/bFbyPV2/IMG-7101-removebg.png"

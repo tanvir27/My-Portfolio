@@ -9,7 +9,7 @@ import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <Banner></Banner>
             <Education></Education>
             <Skills></Skills>

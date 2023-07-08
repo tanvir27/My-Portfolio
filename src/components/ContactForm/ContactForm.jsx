@@ -27,7 +27,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row justify-between w-11/12 mx-auto my-10">
+    <section className="flex flex-col md:flex-row justify-between w-11/12 mx-auto my-10" id="contact">
       <div className=" md:w-1/2 flex-1 md:text-start text-center text-green-900">
         <div className="lg:pt-28 lg:pl-10">
           <div className="flex gap-4 items-center">

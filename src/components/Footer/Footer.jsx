@@ -60,7 +60,7 @@ function Footer() {
           </div>
           <div className="w-full lg:w-1/4  lg:mb-0">
             <div className="text-center">
-              <h3 className=" font-bold mb-4 text-2xl">Social</h3>
+              <h3 className=" font-bold mb-4 text-2xl">Find Me</h3>
               <ul className="list-none inline-block space-y-3 text-xl ">
                 <li className="">
                   <Link to="https://www.facebook.com/tanwirhasan0">
@@ -87,7 +87,9 @@ function Footer() {
                 </li>
                 <li className="">
                   <Link to="/" className="text-black ">
-                    <FaTwitter />
+                    <p>
+                      <FaTwitter />{" "} 
+                    </p>
                   </Link>
                 </li>
               </ul>

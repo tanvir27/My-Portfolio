@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     <div className="">
@@ -24,20 +25,20 @@ function Navbar() {
               </svg>
             </label>
             <ul className="menu menu-sm text-lg font-semibold dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 ">
-              <li className="">
-                <Link to="/">Home</Link>
+              <li >
+                <a href="#home">Home</a>
               </li>
-              <li className="">
-                <Link to="/">Skills</Link>
+              <li>
+                <a href="skills">Skills</a>
               </li>
-              <li className="">
+              <li>
                 <Link to="/projects">Projects</Link>
               </li>
-              <li className="">
-                <Link to="/">About</Link>
+              <li>
+                <a href="#about">About</a>
               </li>
-              <li className="">
-                <Link to="/">Contact</Link>
+              <li>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -51,30 +52,30 @@ function Navbar() {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu text-lg font-semibold menu-horizontal px-1">
-            <li>
-              <Link to="/">Home</Link>
+            <li >
+              <a href="#home">Home</a>
             </li>
             <li>
-              <Link to="/">Skills</Link>
+              <a href="#skills">Skills</a>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <a href="#about">About</a>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end font-semibold">
-          <Link
-            to="/"
+          <a
+            href="#contact"
             className="text-black bg-green-400 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-green-900"
           >
             Hire Me
-          </Link>
+          </a>
         </div>
       </div>
     </div>
