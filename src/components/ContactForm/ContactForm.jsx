@@ -42,7 +42,10 @@ const ContactForm = () => {
           </h2>
         </div>
       </div>
-      <div className=" md:w-1/2 p-6 shadow-2xl">
+      <div
+        className=" md:w-1/2 p-6 shadow-2xl"
+       
+      >
         <form
           onSubmit={handleSubmit}
           className="flex-1 border rounded-2xl flex flex-col gap-y-6 p-6 items start"
