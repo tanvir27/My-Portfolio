@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import { useLoaderData } from "react-router-dom";
 
 const ProjectDetails = () => {
-    return (
-        <div>
-            this is project details
-        </div>
-    );
+  const productDetail = useLoaderData();
+  console.log(productDetail);
+  return (
+    <div>
+      <h2>Projects Details</h2>
+    </div>
+  );
 };
 
 export default ProjectDetails;

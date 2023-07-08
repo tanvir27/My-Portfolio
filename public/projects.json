@@ -3,18 +3,23 @@
     "id": "01",
     "name": "Elite Sports",
     "description": "This e-commerce sports training project offers three dashboards (Admin, Instructor, Student) for seamless class booking, class management, and request approval and also payment system (STRIPE)",
+    "technologies": "HTML, CSS, Tailwind CSS, React, Axios, React Query, React Router, Firebase, JWT, MongoDB, Express JS, Node JS",
     "img": "https://i.ibb.co/q9ycTfs/elite.png",
     "github": "https://github.com/tanvir27",
+    "category": "(Complete MERN)",
     "liveLink": "https://elite-sports-tanvir27.web.app/",
     "clientSide": "https://github.com/tanvir27/elite-sports-mern-project-client",
     "serverSide": "https://github.com/tanvir27/elite-sports-mern-project-server"
   },
+
   {
     "id": "02",
     "name": "Toy Hub",
     "description": "This website is designed for E-commerce based toy car project where someone can buy toy and also here use CRUD operations using Mongo DB.",
+    "technologies": "HTML, CSS, Bootstrap, React Bootstrap, React, React Router, Firebase,  MongoDB, Express JS, Node JS",
     "img": "https://i.ibb.co/GvXVwp3/toy-hub.png",
     "github": "https://github.com/tanvir27",
+    "category": "(MERN)",
     "liveLink": "https://toy-hub-83dc1.web.app/",
     "clientSide": "https://github.com/tanvir27/toy-hub-client-side",
     "serverSide": "https://github.com/tanvir27/toy-hub-server-side"
@@ -22,9 +27,11 @@
   {
     "id": "03",
     "name": "Kitchen House",
-    "description": "TReact Routing is used to this website. Basically This projects is Responsive E-commerce project where someone find chef’s and Food item under chefs.  This website is make responsive for mobile and desktop. Some data stored in the server and displayed course details. Three way authentication for this website - such as email password,google and github. Private route are used in this website so that users can't take premium access without log in.",
+    "description": "This projects is Responsive E-commerce project where someone find chef’s and Food item under chefs. Some data stored in the server and displayed course details.",
+    "technologies": "HTML, CSS, Bootstrap, React Bootstrap, React, React Router, Firebase,  MongoDB, Express JS, Node JS",
     "img": "https://i.ibb.co/tM9nwj1/kitchen.png",
     "github": "https://github.com/tanvir27",
+    "category": "(Front End)",
     "liveLink": "https://the-kitchen-house.web.app/",
     "clientSide": "https://github.com/tanvir27/kitchen-house-client-side",
     "serverSide": "https://github.com/tanvir27/kitchen-house-server-side"
