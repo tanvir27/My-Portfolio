@@ -25,20 +25,21 @@ function Navbar() {
               </svg>
             </label>
             <ul className="menu menu-sm text-lg font-semibold dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 ">
-              <li >
+              <li>
                 <a href="#home">Home</a>
+              </li>
+
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
               </li>
               <li>
                 <a href="skills">Skills</a>
               </li>
               <li>
                 <Link to="/projects">Projects</Link>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -52,20 +53,21 @@ function Navbar() {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu text-lg font-semibold menu-horizontal px-1">
-            <li >
+            <li>
               <a href="#home">Home</a>
+            </li>
+
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
             <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
