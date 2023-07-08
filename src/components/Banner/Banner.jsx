@@ -45,7 +45,7 @@ const Banner = () => {
           >
             <button
               type="button"
-              className="text-black bg-green-400 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-300 font-semibold rounded-full text-lg px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-green-900"
+              className="text-black bg-green-400 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-green-900"
             >
               Get Resume
             </button>
