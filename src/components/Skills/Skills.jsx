@@ -32,7 +32,12 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className=" py-12 " id="skills">
+    <section
+      className=" py-12 "
+      id="skills"
+      data-aos="zoom-in-up"
+      data-aos-duration="1500"
+    >
       <div className="w-11/12 mx-auto">
         <div className="flex items-center justify-center mb-10">
           <div className="mr-3 ">

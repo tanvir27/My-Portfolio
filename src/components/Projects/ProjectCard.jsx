@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
     category,
   } = project;
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-2xl">
+    <div className="card card-compact w-96 bg-base-100 shadow-2xl hover:scale-110 hover:shadow-3xl transition-all">
       <figure>
         <img src={img} alt="" />
       </figure>

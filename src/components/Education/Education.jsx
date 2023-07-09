@@ -5,7 +5,13 @@ import { motion } from "framer-motion";
 
 const Education = () => {
   return (
-    <section className="w-11/12 mx-auto" id="about">
+    <section
+      className="w-11/12 mx-auto"
+      id="about"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-4">
           <div className="mr-3">

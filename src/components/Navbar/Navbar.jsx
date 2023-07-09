@@ -73,7 +73,7 @@ function Navbar() {
         </div>
         <div className="navbar-end font-semibold">
           <a
-            href="#contact"
+            href="mailto:tanvirhasan2463@gmail.com" target="_blank"
             className="text-black bg-green-400 hover:bg-green-500 focus:outline-none focus:ring-4 focus:ring-green-300 font-semibold rounded-lg text-lg px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-green-900"
           >
             Hire Me

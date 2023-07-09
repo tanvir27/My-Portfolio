@@ -27,7 +27,12 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row justify-between w-11/12 mx-auto my-10" id="contact">
+    <section
+      className="flex flex-col md:flex-row justify-between w-11/12 mx-auto my-10"
+      id="contact"
+      data-aos="zoom-in-up"
+      data-aos-duration="2500"
+    >
       <div className=" md:w-1/2 flex-1 md:text-start text-center text-green-900">
         <div className="lg:pt-28 lg:pl-10">
           <div className="flex gap-4 items-center">
@@ -42,10 +47,7 @@ const ContactForm = () => {
           </h2>
         </div>
       </div>
-      <div
-        className=" md:w-1/2 p-6 shadow-2xl"
-       
-      >
+      <div className=" md:w-1/2 p-6 shadow-2xl">
         <form
           onSubmit={handleSubmit}
           className="flex-1 border rounded-2xl flex flex-col gap-y-6 p-6 items start"

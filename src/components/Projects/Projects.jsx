@@ -18,7 +18,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="w-11/12 mx-auto">
+    <div
+      className="w-11/12 mx-auto"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-duration="1500"
+    >
       <div className=" py-6">
         <h2 className="text-4xl  text-center text-green-900 font-bold mb-10">
           <FaBriefcase className="inline-block mr-2 mb-1" /> Some Of My Recent

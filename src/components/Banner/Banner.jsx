@@ -14,7 +14,11 @@ const Banner = () => {
       </div>
 
       <div className="flex items-center flex-col-reverse lg:flex-row mb-8 mx-8">
-        <div className="w-full items-center lg:w-1/2 flex flex-col justify-center">
+        <div
+          className="w-full items-center lg:w-1/2 flex flex-col justify-center"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div className="title">
             <h1 className=" text-4xl text-center md:mt-0 mt-4 leading-relaxed uppercase font-extrabold dark:text-white">
               Welcome to My Portfolio
@@ -84,7 +88,9 @@ const Banner = () => {
             </div>
           </section>
         </div>
-        <div className="w-full lg:w-1/2 ">
+        <div className="w-full lg:w-1/2 " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           <img
             className="w-3/4 h-4/6 rounded-full"
             src="https://i.ibb.co/bFbyPV2/IMG-7101-removebg.png"
